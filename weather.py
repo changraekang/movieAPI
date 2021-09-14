@@ -14,4 +14,4 @@ soup = BeautifulSoup(html_doc, 'html.parser')
 #print(soup)
 temperature = soup.select_one("#MainContent .CurrentConditions--tempValue--3a50n")
 
-print(temperature.text)
+temp = temperature.text
