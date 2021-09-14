@@ -1,3 +1,4 @@
+from requests.models import parse_url
 from movie_model import MovieModel
 import requests
 
@@ -21,3 +22,4 @@ def convert_model(movies):
 
     print(list)
     return list
+
